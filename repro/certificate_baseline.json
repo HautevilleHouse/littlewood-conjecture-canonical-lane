@@ -1,0 +1,78 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "LC_G1": [],
+    "LC_G2": [],
+    "LC_G3": [],
+    "LC_G4": [],
+    "LC_G5": [],
+    "LC_G6": [],
+    "LC_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8038585209003215
+  },
+  "gates": {
+    "LC_G1": "PASS",
+    "LC_G2": "PASS",
+    "LC_G3": "PASS",
+    "LC_G4": "PASS",
+    "LC_G5": "PASS",
+    "LC_G6": "PASS",
+    "LC_GM": "PASS"
+  },
+  "inputs": {
+    "eps_coh": 0.0,
+    "exceptional_transfer": 1.02745,
+    "kappa_compact": 0.8038585209003215,
+    "kappa_flow": 1.0783099999999999,
+    "rho_rigidity": 1.076,
+    "sigma_nonescape": 1.065,
+    "sigma_star_can": 1.05
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-11T15:05:03+00:00",
+    "framework": "littlewood_conjecture"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}

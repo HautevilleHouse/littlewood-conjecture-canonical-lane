@@ -1,0 +1,19 @@
+{
+  "extracted_source": "artifacts/constants_extracted.json",
+  "framework": "littlewood_conjecture",
+  "generated_utc": "2026-03-11T15:06:56Z",
+  "promoted_constants": {
+    "eps_coh": 0.0,
+    "exceptional_transfer": 1.02745,
+    "kappa_compact": 0.8038585209003215,
+    "kappa_flow": 1.0783099999999999,
+    "rho_rigidity": 1.076,
+    "sigma_nonescape": 1.065
+  },
+  "promoted_stitch": {
+    "sigma_star_can": 1.05
+  },
+  "registry_path": "artifacts/constants_registry.json",
+  "schema_version": "2026-03-05",
+  "stitch_path": "artifacts/stitch_constants.json"
+}

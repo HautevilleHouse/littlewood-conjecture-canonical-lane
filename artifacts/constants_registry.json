@@ -1,0 +1,53 @@
+{
+  "constants": {
+    "eps_coh": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Appendix E.6; raw=0.0, ref=1.0, formula=eps_coh_raw",
+      "source": "artifacts/constants_extracted.json#eps_coh",
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.0
+    },
+    "exceptional_transfer": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4; raw=1.02745, ref=1.0, formula=c_exc_raw * transfer_gain_raw - e_exc_raw",
+      "source": "artifacts/constants_extracted.json#exceptional_transfer",
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.02745
+    },
+    "kappa_compact": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C; raw=0.8038585209003215, ref=1.0, formula=1.0 / (1.0 + delta_comp_sup_raw)",
+      "source": "artifacts/constants_extracted.json#kappa_compact",
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 0.8038585209003215
+    },
+    "kappa_flow": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A; raw=1.0783099999999999, ref=1.0, formula=c_flow_raw * density_floor_raw - e_flow_raw",
+      "source": "artifacts/constants_extracted.json#kappa_flow",
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.0783099999999999
+    },
+    "rho_rigidity": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D; raw=1.076, ref=1.0, formula=rho_rigidity_raw",
+      "source": "artifacts/constants_extracted.json#rho_rigidity",
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.076
+    },
+    "sigma_nonescape": {
+      "notes": "Promoted by extraction pipeline; status=derived_numeric; source_section=paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B; raw=1.065, ref=1.0, formula=nonescape_floor_raw - transport_loss_raw - refinement_loss_raw",
+      "source": "artifacts/constants_extracted.json#sigma_nonescape",
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "theorem_level": true,
+      "value": 1.065
+    }
+  },
+  "updated_at_utc": "2026-03-11T15:06:56Z"
+}

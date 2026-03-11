@@ -1,0 +1,92 @@
+{
+  "schema_version": "2026-03-05",
+  "framework": "littlewood_conjecture",
+  "constants": {
+    "kappa_flow": {
+      "status": "derived_numeric",
+      "formula": "c_flow_raw * density_floor_raw - e_flow_raw",
+      "components": {
+        "c_flow_raw": 1.43,
+        "density_floor_raw": 0.917,
+        "e_flow_raw": 0.233
+      },
+      "reference": 1.0,
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "notes": "kappa_flow theorem-level floor.",
+      "required_positive": true
+    },
+    "sigma_nonescape": {
+      "status": "derived_numeric",
+      "formula": "nonescape_floor_raw - transport_loss_raw - refinement_loss_raw",
+      "components": {
+        "nonescape_floor_raw": 1.371,
+        "transport_loss_raw": 0.159,
+        "refinement_loss_raw": 0.147
+      },
+      "reference": 1.0,
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "notes": "sigma_nonescape theorem-level capture floor.",
+      "required_positive": true
+    },
+    "kappa_compact": {
+      "status": "derived_numeric",
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "components": {
+        "delta_comp_sup_raw": 0.244
+      },
+      "reference": 1.0,
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "notes": "kappa_compact theorem-level compactness floor.",
+      "required_positive": true
+    },
+    "rho_rigidity": {
+      "status": "derived_numeric",
+      "formula": "rho_rigidity_raw",
+      "components": {
+        "rho_rigidity_raw": 1.076
+      },
+      "reference": 1.0,
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "notes": "rho_rigidity theorem-level rigidity floor.",
+      "required_positive": true
+    },
+    "exceptional_transfer": {
+      "status": "derived_numeric",
+      "formula": "c_exc_raw * transfer_gain_raw - e_exc_raw",
+      "components": {
+        "c_exc_raw": 1.115,
+        "transfer_gain_raw": 1.03,
+        "e_exc_raw": 0.121
+      },
+      "reference": 1.0,
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "notes": "exceptional_transfer theorem-level transfer floor.",
+      "required_positive": true
+    },
+    "eps_coh": {
+      "status": "derived_numeric",
+      "formula": "eps_coh_raw",
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "reference": 1.0,
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Appendix E.6",
+      "notes": "Strict coherence target.",
+      "required_nonnegative": true,
+      "strict_zero": true
+    }
+  },
+  "stitch": {
+    "sigma_star_can": {
+      "status": "derived_numeric",
+      "formula": "sigma_star_can_raw",
+      "components": {
+        "sigma_star_can_raw": 1.05
+      },
+      "reference": 1.0,
+      "source_section": "paper/LITTLEWOOD_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "required_positive": true
+    }
+  }
+}

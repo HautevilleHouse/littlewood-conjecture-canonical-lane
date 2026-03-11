@@ -1,0 +1,24 @@
+
+  title: "Littlewood's Conjecture via Homogeneous-Dynamics Persistence"
+  message: "If you use this workspace, cite the manuscript and theorem notes."
+  type: software
+  authors:
+    - name: "HautevilleHouse"
+  date-released: 2026-03-11
+  repository-code: "https://github.com/HautevilleHouse/littlewood-conjecture-canonical-lane"
+  url: "https://github.com/HautevilleHouse/littlewood-conjecture-canonical-lane"
+  license: None
+  keywords:
+    - diophantine-approximation
+- ergodic-theory
+- homogeneous-dynamics
+- littlewood-conjecture
+- mathematical-proof
+- number-theory
+- reproducibility
+  preferred-citation:
+    type: article
+    title: "Littlewood's Conjecture via Homogeneous-Dynamics Persistence"
+    authors:
+      - name: "HautevilleHouse"
+    date: 2026-03-11
