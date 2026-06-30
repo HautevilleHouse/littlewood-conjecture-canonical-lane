@@ -11,9 +11,9 @@ python3 scripts/extract_constants.py       --inputs artifacts/constants_extracti
 
 python3 scripts/promote_constants.py       --extracted artifacts/constants_extracted.json       --registry artifacts/constants_registry.json       --stitch artifacts/stitch_constants.json       --report artifacts/promotion_report.json
 
-mkdir -p .repro_tmp/lc_closure
-cp artifacts/stitch_constants.json .repro_tmp/lc_closure/stitch_constants.json
-cp artifacts/constants_registry.json .repro_tmp/lc_closure/constants_registry.json
+mkdir -p .tmp/lc_closure
+cp artifacts/stitch_constants.json .tmp/lc_closure/stitch_constants.json
+cp artifacts/constants_registry.json .tmp/lc_closure/constants_registry.json
 
 python3 scripts/lc_closure_guard.py       --strict-coh-zero       --registry artifacts/constants_registry.json       --stitch artifacts/stitch_constants.json       --out repro/certificate_runtime.json       --history repro/drift_guard_runs.jsonl       --pretty
 
