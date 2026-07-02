@@ -1,6 +1,6 @@
 # Identification Bridge
 
-Mature wording: `endpoint identification / boundary object / final margin`.
+Canonical wording: `endpoint identification / boundary object / final margin`.
 
 In-paper anchor: `paper/LITTLEWOOD_CONJECTURE_PREPRINT.md` (bridge and margin interface).
 
@@ -17,7 +17,7 @@ This is the boundary/global-object step in the public Canonical Lane package.
 
 ## Determining Class
 
-The determining class is the collection of observables, locks, or transfer constraints declared by the main preprint and constants registry. In the older wording this appears as an endpoint lock; in the mature wording it is endpoint identification.
+The determining class is the collection of observables, locks, or transfer constraints declared by the main preprint and constants registry. In the older wording this appears as an endpoint lock; in the canonical wording it is endpoint identification.
 
 ## Closure Criterion
 
@@ -48,5 +48,5 @@ If lock persistence, determining-class uniqueness, and strict coherence hold, th
 - endpoint-transfer artifact key: `exceptional_transfer`
 - coherence artifact key: `eps_coh`
 - margin: `M_LC`
-- mature equivalent: `endpoint identification / boundary object / final margin`
+- canonical equivalent: `endpoint identification / boundary object / final margin`
 - audit surface: `repro/run_repro.sh`, `repro/certificate_runtime.json`, and `artifacts/constants_registry.json`
