@@ -24,7 +24,7 @@ This is the first-failure capture contribution to `M_LC`.
 ### Lemma EG3.1 (near-failure extraction)
 Any sequence that approaches gate failure has a normalized extracted candidate inside the declared admissible class.
 
-Payload: verify that `kappa_compact` is registered and participates in the runtime certificate.
+Payload: check that `kappa_compact` is registered and participates in the runtime certificate.
 
 ### Lemma EG3.2 (no-Zeno spacing)
 Corrective restart steps cannot accumulate without being detected by the compactness or coherence surface.

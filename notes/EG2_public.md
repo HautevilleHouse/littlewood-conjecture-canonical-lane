@@ -24,7 +24,7 @@ This is the transport contribution to `M_LC`.
 ### Lemma EG2.1 (transport accounting)
 Every transport step used by the lane is charged to the declared defect ledger instead of being absorbed into prose.
 
-Payload: verify that the capture constant `sigma_nonescape` is present in the constants registry and extraction inputs.
+Payload: check that the capture constant `sigma_nonescape` is present in the constants registry and extraction inputs.
 
 ### Lemma EG2.2 (restart preservation)
 Restart or normalization preserves the declared admissible class and does not create an untracked remainder.

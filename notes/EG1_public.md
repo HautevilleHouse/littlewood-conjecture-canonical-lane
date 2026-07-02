@@ -24,7 +24,7 @@ This is the protected-core contribution to the strict margin `M_LC`.
 ### Lemma EG1.1 (projection reduction)
 On the declared admissible class, the response object may be read on the projected sector without changing the target gate.
 
-Payload: verify that all quantities used by `kappa_flow` are defined on the projected sector named in the main preprint.
+Payload: check that all quantities used by `kappa_flow` are defined on the projected sector named in the main preprint.
 
 ### Lemma EG1.2 (protected-core floor)
 If the projected response floor is positive on the admissible sector, then the core cannot collapse before the later transport and remainder gates are evaluated.

@@ -26,7 +26,7 @@ Together they feed the strict margin `M_LC`.
 ### Lemma EG4.1 (bad-limit exclusion)
 Every extracted bad limit contradicts a declared rigidity constraint or leaves the admissible class.
 
-Payload: verify `rho_rigidity` in the registry and certificate surfaces.
+Payload: check `rho_rigidity` in the registry and certificate surfaces.
 
 ### Lemma EG4.2 (endpoint transfer)
 The surviving rigid representative is locked to the standard problem-side endpoint by `exceptional_transfer`.

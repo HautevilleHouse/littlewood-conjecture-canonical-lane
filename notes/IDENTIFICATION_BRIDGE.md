@@ -33,7 +33,7 @@ The bridge closes when:
 ### Lemma ID.1 (lock persistence)
 Endpoint locks persist along the admissible extracted lane when the transport and compactness gates have closed.
 
-Payload: verify `exceptional_transfer` against the constants registry and runtime certificate.
+Payload: check `exceptional_transfer` against the constants registry and runtime certificate.
 
 ### Lemma ID.2 (determining-class uniqueness)
 Two admissible endpoint representatives that agree on the declared determining locks are equivalent under the repo's declared endpoint equivalence.
