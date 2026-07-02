@@ -39,7 +39,7 @@ This manuscript proves the target statement on the declared admissible class or 
 The canonical endpoint objects are tied to the standard problem-side target through the in-repo bridge package. The paper records the transfer or endpoint-identification step in the main theorem chain, and `notes/IDENTIFICATION_BRIDGE.md` fixes the determining-class lock in ordinary mathematical language.
 
 ### 1.1C Audit surface
-A reviewer can check this claim on four surfaces:
+The closure statement is checkable on four surfaces:
 
 1. the standard target statement in Section `1.1`,
 2. the canonical objects and closure gates in the main paper,
