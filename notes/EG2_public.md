@@ -27,7 +27,7 @@ Every transport step used by the lane is charged to the declared defect ledger i
 Payload: check that the capture constant `sigma_nonescape` is present in the constants registry and extraction inputs.
 
 ### Lemma EG2.2 (restart preservation)
-Restart or normalization preserves the declared admissible class and does not create an untracked remainder.
+Restart or normalization preserves the declared admissible class and keeps the remainder tracked.
 
 Payload: inspect the repro script and guard output for the gate tied to `sigma_nonescape`.
 

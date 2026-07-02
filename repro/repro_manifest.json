@@ -35,7 +35,7 @@
     },
     {
       "path": "notes/EG2_public.md",
-      "sha256": "84361b699b284d97ac26543de77e5e9dea75a6252330dcb86da16f1d837206bf"
+      "sha256": "896da14f8896e2c8c994bef3ec33455a7e94279ae3994c0f17423734bad52a6f"
     },
     {
       "path": "notes/EG3_public.md",
@@ -102,7 +102,7 @@
       "sha256": "df19d1d97a323149a2dbea6fcd1c700507d6d6dad7ef9002631524291a289e75"
     }
   ],
-  "generated_utc": "2026-07-02T16:29:35Z",
+  "generated_utc": "2026-07-02T16:57:59Z",
   "lane": "manifold_constrained",
   "runtime_certificate_path": "repro/certificate_runtime.json",
   "schema_version": "2026-03-05"
